@@ -1,0 +1,83 @@
+/* Website backgroup color */
+body {
+    background-color: black;
+}
+
+/* Navigaion bar */
+.icons {
+    cursor: pointer;
+    height: 30px;
+    object-fit: cover;
+    width: 30px;
+}
+
+.navi-bar {
+    width: 100%;
+    background-color: darkgray;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.navi-bar a {
+    float: left;
+    text-align: center;
+    width: 16%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: rgb(93, 154, 197);
+    font-size: 28px;
+    color: black;
+}
+
+.navi-bar a:hover {
+    background-color: #343333;
+}
+
+.active {
+    background-color: rgba(68, 29, 29, 0.304);
+}
+
+/* Home page */
+.welcome h1 {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif-display;
+    line-height: 60px;
+}
+
+.welcome h2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif-display;
+}
+
+/* Team page */
+.team{
+    text-align: center;
+}
+
+.team h1 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.team p{
+    color: skyblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 350px;
+    float: left;
+    margin: 10px;
+}
+
+.profile p {
+    font-family: sans-serif-display;
+    font-size: 25px;
+    text-align: justify;
+    color: skyblue;
+}
